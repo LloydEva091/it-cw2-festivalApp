@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, UserIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import jwt_decode from "jwt-decode";
+// import jwt_decode from "jwt-decode";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -116,7 +116,8 @@ const Navbar = ({ logIn, isLogged }) => {
                                             leaveTo="transform opacity-0 scale-95"
                                         >
                                             <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-gray-700 py-1 shadow-lg ring-1 ring-white ring-opacity-5 focus:outline-none">
-                                                {/* <Menu.Item>
+                                                {/* //For when Profile and Setting is implemented
+                                                <Menu.Item>
                                                     {({ active }) => (
                                                         <a
                                                             href="#"

@@ -1,7 +1,5 @@
 import { Navigate } from "react-router-dom"
-import { useMutation } from "react-query";
-import { loginUser } from "../apis/festivalApi";
-import { useState } from "react";
+
 
 export default function PrivateRoute({ children }) {
   const user = JSON.parse(localStorage.getItem("user"))

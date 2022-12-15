@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import { Banner } from '../components/Banner'
+// import { Link } from 'react-router-dom'
+// import { Banner } from '../components/Banner'
 import { useQuery } from "react-query";
 import ImageSlider from '../components/ImageSlider';
 import { getEvents, getComedians, getVenues } from "../apis/festivalApi";
