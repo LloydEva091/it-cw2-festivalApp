@@ -24,7 +24,7 @@ const Login = ({ setIsLoggedIn }) => {
     e.preventDefault()
 
     const existingUser = {
-      email: formData.email,
+      email: formData.email.toLowerCase(),
       password: formData.password,
       roles: formData.roles,
     }

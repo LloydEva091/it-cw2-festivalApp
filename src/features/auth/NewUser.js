@@ -32,7 +32,7 @@ const NewUser = () => {
         e.preventDefault()
         const newUser = {
             name: formData.name,
-            email: formData.email,
+            email: formData.email.toLocaleLowerCase(),
             password: formData.password
         }
         if (formData.password === formData.password2) {

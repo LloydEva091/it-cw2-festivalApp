@@ -28,7 +28,7 @@ const Register = ({ setIsLoggedIn }) => {
 
     const newUser = {
       name: formData.name,
-      email: formData.email,
+      email: formData.email.toLocaleLowerCase(),
       password: formData.password,
     }
 

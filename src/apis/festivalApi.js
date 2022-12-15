@@ -1,5 +1,5 @@
 const base_URL = 'https://it-cw2-festivalapp-api.onrender.com'
-// const base_URL = 'http://localhost:3500'  - for local ver
+// const base_URL = 'http://localhost:3500'  //- for local ver
 export const loginUser = async (existingUser) => {
     const response = await fetch(`${base_URL}/api/users/login/`, {
         headers: {
