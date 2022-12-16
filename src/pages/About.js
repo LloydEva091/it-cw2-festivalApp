@@ -8,8 +8,7 @@ const About = () => {
         <p className='relative flex h-16 items-center justify-between m-5'>This website was created for a UWS Web Development course. This website's content is entirely fictitious and unrelated to any actual organisations or people. </p>
         <p className='relative flex h-16 items-center justify-between m-5'>Project of Lloyd Edgar Evangelista - B00419305 & Ahmad Faiz - B00413308</p>
         <p className='relative flex h-16 items-center justify-between m-5'>Developed by: Lloyd Edgar Evangelista </p>
-        <p className='relative flex h-16 items-center justify-between m-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+        </div>
   )
 }
 
