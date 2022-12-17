@@ -81,7 +81,7 @@ const ImageSlider = ({ slides }) => {
             
         </div>
         <div className="h-30 w-full bg-white translate-y-60 opacity-80 shadow-xl nav_font text-center mb-2 ">
-            <Link to="/events" type="button" className="bg-black rounded block w-full">view more</Link>
+            <Link to="/events" type="button" className="bg-black block w-full">view more</Link>
         </div>
         
       </div>
